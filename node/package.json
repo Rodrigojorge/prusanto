@@ -1,0 +1,20 @@
+{
+  "name": "prusanto",
+  "version": "1.0.0",
+  "description": "cervejaria prusanto",
+  "main": "prusantoApp.js",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "express": "^4.13.3",
+    "express-ntlm": "^2.1.4",
+    "mssql": "^2.2.0",
+    "qs": "^5.1.0",
+    "requirejs": "^2.1.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
