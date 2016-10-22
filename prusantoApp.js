@@ -26,7 +26,7 @@ app.use(ntlm({
 
 //app.use(express.static('../public'));
 
-app.use('/prusanto', express.static('../public_html'));
+app.use('/prusanto', express.static('public_html'));
 
 // parse application/x-www-form-urlencoded
 //,reviver:function(k,v){JSON.parse(v)}}
