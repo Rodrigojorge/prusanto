@@ -6,6 +6,9 @@ var ntlm = require('express-ntlm');
 //var bodyParser = express.bodyParser();
 
 var app = express();
+
+app.set('port', process.env.PORT || 3000);
+
 /*
 app.use(ntlm({
     debug: function() {
@@ -147,7 +150,7 @@ console.dir('usuario: ' + req.ntlm);
 
 });*/
 
-var server = app.listen(8080, function () {
+var server = app.listen(app.get('port'), function () {
   var host = server.address().address;
   var port = server.address().port;
 
